@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="images/jamsjellieslogo.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+
+    <title>M&H</title>
+
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/carousel/"> -->
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Montserrat:wght@800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Montserrat:wght@400;800&display=swap"
+        rel="stylesheet" />
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Nutrition Facts</a>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <table>
+                        <thead>
+                        </thead>
+                        <tbody class="table">
+                            <tr>
+                                <td>
+                                    <h2>Nutrition Facts</h2>
+                                    Serving size 20g (~0.7 oz.)
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>Amount per serving</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Calories</h5>
+                                </td>
+                                <td></td>
+                                <td class="right">
+                                    <h5>30</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Calories from Fat</h5>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td class="right">%DV</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Total Fat</h5>
+                                </td>
+                                <td>
+                                    <h5>0g</h5>
+                                </td>
+                                <td class="right">
+                                    <h5>0%</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Saturated Fat</td>
+                                <td>0g</td>
+                                <td class="right">0%</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Cholesterol</h5>
+                                </td>
+                                <td>
+                                    <h5>0mg</h5>
+                                </td>
+                                <td class="right">
+                                    <h5>0%</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Sodium</h5>
+                                </td>
+                                <td>
+                                    <h5>0mg</h5>
+                                </td>
+                                <td class="right">
+                                    <h5>0%</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Total Carbohydrate</h5>
+                                </td>
+                                <td>
+                                    <h5>7g</h5>
+                                </td>
+                                <td class="right">
+                                    <h5>1%</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Dietary Fiber</td>
+                                <td>0g</td>
+                                <td class="right">0%</td>
+                            </tr>
+                            <tr>
+                                <td>Sugars</td>
+                                <td>7g</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Protein</h5>
+                                </td>
+                                <td>
+                                    <h5>0g</h5>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Vitamin A</td>
+                                <td></td>
+                                <td class="right">
+                                    <h5>0%</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Vitamin C</td>
+                                <td></td>
+                                <td class="right">
+                                    <h5>0%</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Calcium</td>
+                                <td></td>
+                                <td class="right">
+                                    <h5>0%</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Iron</td>
+                                <td></td>
+                                <td class="right">
+                                    <h5>0%</h5>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="ingredients">
+                        <div class="ingredients-header">
+                            <h3>Ingredients</h3>
+                        </div>
+                        White Grape Juice, Rhubarb, Strawberries, Water, Pectin, Vinegar, Calcium Water, Cirtic Acid,
+                        Vitamin C. **Contains 0 Sugar Alcohol** Packaged in the same facility as peanuts, tree nuts,
+                        wheat,
+                        soy, and milk products.
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

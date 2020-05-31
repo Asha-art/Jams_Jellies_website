@@ -1,66 +1,94 @@
-body{
-    background-color: #161E67 ;
-    color: white;
+body {
+	background-color: #161e67;
+	color: white;
 }
 #top-nav {
-    background-color: #FF5C5C!important;
+	background-color: #ff5c5c !important;
 }
- .about{
-    margin-top: 100 px;
-    padding-top:150px
-   } 
-div, h6{
-    padding:5px;
+.about {
+	/* margin-top: 50 px; */
+	padding-top: 50px;
 }
-h2, h5{
-    font-family: 'Montserrat', sans-serif;
-     color: #FF5C5C;
+div,
+h6 {
+	padding: 5px;
 }
-h1{
-    font-family: 'Montserrat', sans-serif;
-     color: #FF5C5C;
-     font-weight: bold;
+h2,
+h5 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ff5c5c;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ff5c5c;
+	font-weight: bold;
+}
+
+/* Top image  */
+#firstpix {
+	background-image: url(https://blog.publix.com/publix/files/2018/11/Jellies-and-jams-on-wood-table.jpg);
+	height: 150px;
+	/* width: 100%; */
+	background-size: cover;
+	background-attachment: fixed;
+	/* background-position: 0 30%; */
+	opacity: 0.5;
+	/*filter: grayscale(100%);*/
+}
+
+#firstHeading {
+	margin-top: 10%;
 }
 
 /* image in Our core values */
-#jarpix{
-    background-image: url(https://inhabitat.com/wp-content/blogs.dir/1/files/2014/09/Decorated-Jars.jpg);
-    height: 150px;
-    width: 100%;
-    background-position: 0 30%;
-    opacity: 0.3;
-    filter: grayscale(100%);
-    }
-
-.contact{
-    margin-top:100px;
+#jarpix {
+	background-image: url(https://inhabitat.com/wp-content/blogs.dir/1/files/2014/09/Decorated-Jars.jpg);
+	height: 150px;
+	width: 100%;
+	background-position: 0 30%;
+	opacity: 0.3;
+	filter: grayscale(100%);
 }
 
-div.form{
-      text-align:center;
-        margin: auto;
-        width: 100%;
-        padding: 10px;
-}
-#name, #email{
-    width : 30%;
-}
-#msg{
- height:100px;
- width: 40%;
-}
-#submit{
-    margin: 20px;
-    width: 100px;
-    background-color: #a4a5a5;
-    border-radius: 15px;
-    
-}
-#submit:hover{
-    background-color: #FF5C5C ;
+#coreValues {
+	margin-top: 5%;
 }
 
+/* form */
 
+.contact {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+div.form {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+}
+#name,
+#email {
+	width: 80%;
+}
+#msg {
+	height: 100px;
+	width: 80%;
+}
+#submit {
+	margin: 20px;
+	width: 100px;
+	background-color: #a4a5a5;
+	border-radius: 15px;
+}
+#submit:hover {
+	background-color: #ff5c5c;
+}
 
 /*
 Hex Values:
